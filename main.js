@@ -1,6 +1,5 @@
-class Pessoa {
-    constructor(nome, sobrenome) {
-        this.nome = nome;
-        this.sobrenome = sobrenome;
-    }
-};
+const nome = 'Luiz';
+const obj = { nome };
+const novoObj = { ...obj };
+
+console.log(novoObj);
