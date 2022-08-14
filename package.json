@@ -1,0 +1,26 @@
+{
+  "name": "babel-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel ./main.js -o ./bundle.js --presets=@babel/env -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eosilva10/babel-webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eosilva10/babel-webpack/issues"
+  },
+  "homepage": "https://github.com/eosilva10/babel-webpack#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10"
+  }
+}
